@@ -1,0 +1,8 @@
+.container .box ul li {
+    list-style: none;
+    width: 230px;
+    height: 200px;
+    background-color: pink;
+    float: left;
+    margin: 20px 20px 0 0;
+}

@@ -1,0 +1,97 @@
+.container .box .up {
+    width: 1000px;
+    height: 300px;
+    background-color: #e2e2e2;
+}
+
+.container .box .up .carousel {
+    width: 600px;
+    height: 300px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.container .box .up .carousel .title {
+    width: 600px;
+    height: 50px;
+    background-color: #78ffd1;
+    position: absolute;
+    bottom: 0;
+    padding: 15px;
+    color: white;
+}
+
+.container .box .up .carousel .left,
+.container .box .up .carousel .right {
+    position: absolute;
+    top: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.3);
+    line-height: 30px;
+    text-align: center;
+    color: white;
+    font-size: 14pt;
+}
+
+.container .box .up .carousel .left {
+    border-radius: 0 30px 30px 0;
+    left: 0;
+}
+
+.container .box .up .carousel .left:hover {
+    cursor: pointer;
+}
+
+.container .box .up .carousel .right {
+    border-radius: 30px 0 0 30px;
+    right: 0;
+}
+
+.container .box .up .carousel .right:hover {
+    cursor: pointer;
+}
+
+.container .box .up .carousel ul {
+    position: absolute;
+    bottom: 20%;
+    left: 45%;
+}
+
+.container .box .up .carousel ul li {
+    list-style: none;
+    width: 10px;
+    height: 10px;
+    float: left;
+    background-color: rgba(255, 255, 255, .5);
+    border-radius: 10px;
+    margin-left: 5px;
+}
+
+.container .box .up .carousel ul li:hover {
+    cursor: pointer;
+}
+
+.container .box .up .carousel ul li.active {
+    background-color: rgb(255, 255, 255);
+}
+
+.container .box .down {
+    width: 1000px;
+}
+
+.container .box .down .news1,
+.container .box .down .news2 {
+    width: 500px;
+    height: 200px;
+    background-color: #e2e2e2;
+    float: left;
+    padding: 20px;
+    border: 3px inset greenyellow;
+}
+
+.container .box .down .news1 p,
+.container .box .down .news2 p {
+    margin-top: 5px;
+    border-bottom: 1px black dashed;
+}

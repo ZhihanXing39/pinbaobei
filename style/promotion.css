@@ -1,0 +1,16 @@
+.container .box {
+    width: 1000px;
+    line-height: 1.6;
+    color: #333333;
+    background-color: #ffffff;
+    /* margin: 0; */
+    padding: 20px;
+}
+
+.container .box p {
+    background-color: #ddffff;
+    padding: 14px;
+    border-left: 6px solid #ccc;
+    border-color: #2196F3;
+    font-size: 14pt;
+}

@@ -1,0 +1,39 @@
+.container .box ul {
+    width: 1000px;
+    height: 300px;
+    background-color: #55AF7B;
+}
+
+.container .box ul li {
+    list-style: none;
+    width: 200px;
+    height: 300px;
+    float: left;
+    transition: all 1s;
+    font-size: 16pt;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    line-height: 300px;
+    cursor: pointer;
+}
+
+.container .box ul li:first-child {
+    background-color: #4286F3;
+}
+
+.container .box ul li:nth-child(2) {
+    background-color: #78ffd1;
+}
+
+.container .box ul li:nth-child(3) {
+    background-color: #FAC230;
+}
+
+.container .box ul li:nth-child(4) {
+    background-color: #55AF7B;
+}
+
+.container .box ul li.active {
+    width: 400px;
+}
